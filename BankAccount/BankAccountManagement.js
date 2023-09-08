@@ -48,16 +48,16 @@ function BankAccount(accountNumber, name, type, balance)
     
     
 }
-  let account1 = new BankAccount(6762889326, "Ajay" , "Saving" , 1);
-  let account2 = new BankAccount(6728920154, "Deepak" , "Current" ,1);
-  let account3 = new BankAccount(586866507, "Prakash" , "Current" , 1);
-  let account4 = new BankAccount(367687076, "Aman" , "Saving" , 55);
-  let account5 = new BankAccount(987645431, "Ravendra" , "Saving" , 1);
-  let account6 = new BankAccount(867565443, "Siddharth" , "Current" , 1);
+  let account1 = new BankAccount(6762889326, "Ajay" , "Saving" , 4000);
+  let account2 = new BankAccount(6728920154, "Deepak" , "Current" ,166908);
+  let account3 = new BankAccount(586866507, "Prakash" , "Current" , 1563868);
+  let account4 = new BankAccount(367687076, "Aman" , "Saving" , 5583);
+  let account5 = new BankAccount(987645431, "Ravendra" , "Saving" , 172);
+  let account6 = new BankAccount(867565443, "Siddharth" , "Current" , 16769);
   let account7 = new BankAccount(767675543, "Vishal" , "Saving", -30);
-  let account8 = new BankAccount(2567697867, "Manish" , "Current" , 1);
-  let account9 = new BankAccount(5756432786, "Murtaza" , "Current" , 1);
-  let account10 = new BankAccount(5756753266, "Prachi" , "Saving" , -10);
+  let account8 = new BankAccount(2567697867, "Manish" , "Current" , 16791);
+  let account9 = new BankAccount(5756432786, "Murtaza" , "Current" , 167618);
+  let account10 = new BankAccount(5756753266, "Prachi" , "Saving" , -10682);
 
 
   function getTotalBalance(account1, account2, account3,account4,account5,account6,account7,account8,account9,account10)
@@ -111,14 +111,16 @@ getTotalBalance(account1, account2, account3,account4,account5,account6,account7
   account8.withdraw(3000);
   account4.deposit(5000);
   account10.withdraw(4500);
-  account1.withdraw(2)
-account6.isActive()
-account10.isActive() 
-account10.withdraw(15)
-account1.isActive();
-account10.isActive()
-account4.withdraw(2000)
-account9.deposit(100) 
+  
+
+
+  account6.isActive();
+  account10.isActive();
+  account1.isActive();
+  account10.isActive();
+
+  account1.checkBalance();
+  account10.checkBalance();
 // console.log(account4.status, account4.balance)
 
 getTotalBalance(account1, account2, account3,account4,account5,account6,account7,account8,account9,account10)
