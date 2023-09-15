@@ -38,7 +38,7 @@ function BankAccount(accountNumber, name, type, balance)
 
     this.isActive = function ()
     {
-        if(this.balance < 0){
+        if(this.balance >= 0){
             console.log("active")
         }
         else{
